@@ -1,4 +1,4 @@
-using OpenTK;
+﻿using OpenTK;
 
 namespace Bearded.Utilities.SpaceTime
 {
@@ -6,6 +6,12 @@ namespace Bearded.Utilities.SpaceTime
     {
         private readonly Unit x;
         private readonly Unit y;
+
+        public Position2(Vector2 p)
+            :this(p.X.Units(), p.Y.Units())
+        {
+            
+        }
 
         public Position2(Unit x, Unit y)
         {

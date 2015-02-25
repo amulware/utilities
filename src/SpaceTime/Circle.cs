@@ -1,9 +1,11 @@
-namespace Bearded.Utilities.SpaceTime
+﻿namespace Bearded.Utilities.SpaceTime
 {
     public struct Circle
     {
         private readonly Position2 center;
         private readonly Unit radius;
+
+
 
         public Circle(Position2 center, Unit radius)
         {
