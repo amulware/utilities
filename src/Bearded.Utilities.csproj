@@ -67,7 +67,6 @@
     <Folder Include="Linq\" />
     <Folder Include="Properties\" />
     <Folder Include="Serialization\JsonNet\" />
-    <Folder Include="SpaceTime\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
@@ -112,6 +111,10 @@
     <Compile Include="Math\Geometry\PolarPosition.cs" />
     <Compile Include="Math\Geometry\Rectangle.cs" />
     <Compile Include="Math\Interpolate.cs" />
+    <Compile Include="SpaceTime\Extensions.cs" />
+    <Compile Include="SpaceTime\Instant.cs" />
+    <Compile Include="SpaceTime\TimeSpan.cs" />
+    <Compile Include="SpaceTime\Unit.cs" />
     <Compile Include="Threading\IActionQueue.cs" />
     <Compile Include="Threading\ManualActionQueue.cs" />
     <Compile Include="Threading\BackgroundActionQueue.cs" />
