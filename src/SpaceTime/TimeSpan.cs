@@ -1,6 +1,6 @@
 ﻿namespace Bearded.Utilities.SpaceTime
 {
-    struct TimeSpan
+    public struct TimeSpan
     {
         #region Fields
 

@@ -1,6 +1,6 @@
 namespace Bearded.Utilities.SpaceTime
 {
-    static class Extensions
+    public static class Extensions
     {
         public static Unit Units(this float value)
         {

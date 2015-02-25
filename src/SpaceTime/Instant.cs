@@ -1,6 +1,6 @@
 ﻿namespace Bearded.Utilities.SpaceTime
 {
-    struct Instant
+    public struct Instant
     {
         #region Fields
 
