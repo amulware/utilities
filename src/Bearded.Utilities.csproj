@@ -131,8 +131,10 @@
     <Compile Include="Math\Geometry\PolarPosition.cs" />
     <Compile Include="Math\Geometry\Rectangle.cs" />
     <Compile Include="Math\Interpolate.cs" />
+    <Compile Include="SpaceTime\Circle.cs" />
     <Compile Include="SpaceTime\Extensions.cs" />
     <Compile Include="SpaceTime\Instant.cs" />
+    <Compile Include="SpaceTime\Position2.cs" />
     <Compile Include="SpaceTime\TimeSpan.cs" />
     <Compile Include="SpaceTime\Unit.cs" />
     <Compile Include="Threading\IActionQueue.cs" />
