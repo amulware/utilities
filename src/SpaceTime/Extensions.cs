@@ -1,15 +1,23 @@
 namespace Bearded.Utilities.SpaceTime
 {
+    /// <summary>
+    /// Contains useful extensions for SpaceTime types.
+    /// </summary>
     public static class Extensions
     {
-        public static Unit Units(this float value)
+        /// <summary>
+        /// Returns a unit value with the given numerical value.
+        /// </summary>
+        public static Unit U(this float value)
         {
             return new Unit(value);
         }
-
-        public static TimeSpan Seconds(this double value)
+        /// <summary>
+        /// Returns a unit value with the given numerical value.
+        /// </summary>
+        public static Unit U(this int value)
         {
-            return new TimeSpan(value);
+            return new Unit(value);
         }
     }
 }
