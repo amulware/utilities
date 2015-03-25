@@ -56,6 +56,16 @@ namespace Bearded.Utilities.SpaceTime
             return to - from;
         }
 
+        /// <summary>
+        /// Returns a difference vector from a direction and length.
+        /// </summary>
+        /// <param name="direction">The direction of the returned vector.</param>
+        /// <param name="length">The length of the returned vector.</param>
+        public static Difference2 In(Direction2 direction, Unit length)
+        {
+            return new Difference2(direction.Vector * length.NumericValue);
+        }
+
         #endregion
 
         #endregion
