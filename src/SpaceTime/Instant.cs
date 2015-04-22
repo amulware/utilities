@@ -67,7 +67,7 @@ namespace Bearded.Utilities.SpaceTime
         /// <summary>
         /// Gets the time span between two instants in time.
         /// </summary>
-        public static TimeSpan operator -(Instant from, Instant to)
+        public static TimeSpan operator -(Instant to, Instant from)
         {
             return new TimeSpan(to.value - from.value);
         }
